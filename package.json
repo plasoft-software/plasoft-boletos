@@ -1,0 +1,54 @@
+{
+  "name": "plasoft-boletos",
+  "version": "1.0.3",
+  "description": "Gerador de boletos para vários bancos",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "nodeunit ./tests/*test.js && nodeunit ./tests/boleto/bancos/*test.js && nodeunit ./tests/boleto/*test.js"
+  },
+  "keywords": [
+    "gerador",
+    "boleto",
+    "boletos",
+    "bancario",
+    "banco",
+    "cecred",
+    "sicredi",
+    "ailos",
+    "viacredi",
+    "bradesco",
+    "brasil",
+    "itau",
+    "caixa",
+    "economica",
+    "federal",
+    "santander",
+    "sicoob"
+  ],
+  "author": {
+    "name": "Aldori Pessoa",
+    "email": "aldori.desenvolvimento@plasoft.com.br"
+  },
+  "contributors": [
+    {
+      "name": "Felipe Amaral",
+      "email": "furflez@live.com"
+    }
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "pdfkit": "0.8.3"
+  },
+  "devDependencies": {
+    "nodeunit": "0.11.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plasoft-software/plasoft-boletos.git"
+  }
+}
