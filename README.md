@@ -1,4 +1,4 @@
-# gerador-boletos
+# plasoft-boletos
 
 <!-- [START badges] -->
 [![NPM plasoft-boletos package](https://img.shields.io/npm/v/plasoft-boletos.svg)](https://npmjs.org/package/plasoft-boletos)
