@@ -1,6 +1,6 @@
 {
   "name": "plasoft-boletos",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Gerador de boletos para vários bancos",
   "main": "index.js",
   "directories": {
